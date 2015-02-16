@@ -15,7 +15,7 @@ To use this them, you'll need to add it as a git submodule into your project.
 You'll typically want to put this theme into the `_themes` directory in your
 Sphinx project.  Here's how I do it most of the time:
 
-    $ git submodule add https://github.com/snide/sphinx_rtd_theme docs/_themes/stormpath
+    $ git submodule add https://github.com/stormpath/stormpath-sphinx-theme.git docs/_themes/stormpath
 
 **NOTE**: The last argument is the relative path this theme will be installed
 as.  Make sure the past name ends with `stormpath` -- otherwise the usage
