@@ -16,6 +16,8 @@ You'll typically want to put this theme into the `_themes` directory in your
 Sphinx project.  Here's how I do it most of the time:
 
     $ git submodule add https://github.com/stormpath/stormpath-sphinx-theme.git docs/_themes/stormpath
+    $ git submodule init
+    $ git submodule update
 
 **NOTE**: The last argument is the relative path this theme will be installed
 as.  Make sure the past name ends with `stormpath` -- otherwise the usage
